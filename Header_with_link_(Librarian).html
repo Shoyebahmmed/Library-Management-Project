@@ -1,0 +1,90 @@
+<html>
+    <style>
+    .navbar {
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        display: inline-block;
+        color: #001641;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        margin-left: 50px;
+        background-color: rgb(248, 248, 248);
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+
+    .navbar a:hover {
+        background-color: rgb(212, 212, 212);
+        color: #001641;
+        border-radius: 30px;
+    }
+    .dropbtn {
+        background-color: rgb(248, 248, 248);
+        border-radius: 30px;
+  color: #001641;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-top: -3.5%;
+  margin-right: 47%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: darkgray;}
+    </style>
+
+
+    <body>
+        <div class="navbar">
+            <img src="library.png" height="100" width="220" style="display: inline-block; padding: 1.2%;">
+            <a href="Page 5_(Librarian_Home).php">Home</a>
+            <a href="Page 7_Change_status.php">Change Status</a>
+            <a href="Page 12_Add_Book.php">Add Book</a>
+            <a href="Page 1_(Log in_Student).php" style="margin-left: 45%;">Log Out</a>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Search Options</button>
+            <div class="dropdown-content">
+                <a href="Page 10_Search.php">Search by Combination</a>
+                <a href="Page 11_Search_by_status.php">Search by Status</a>
+                <a href="Page 8_View_Borrowed_Book.php">Display Borrowed Book</a>
+                <a href="Page 9_View_Extended_Book.php">Display Extended Book</a>
+            </div>
+          </div>
+
+        <hr>    
+
+    </body>
+</html>
